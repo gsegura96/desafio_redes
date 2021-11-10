@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.16.22 <<>> @199.85.126.10 google.com A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57637
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		158	IN	A	142.250.64.174
+
+;; Query time: 56 msec
+;; SERVER: 199.85.126.10#53(199.85.126.10)
+;; WHEN: Tue Nov 09 20:15:54 CST 2021
+;; MSG SIZE  rcvd: 55
+

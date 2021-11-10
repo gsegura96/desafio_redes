@@ -1,0 +1,29 @@
+request domain: google.com
+total requests: 100
+
+A
+provider; min; max; mean; median
+custom; 79; 126; 88.1188; 89
+google; 43; 73; 56.4752; 56
+cloudflare; 56; 276; 70.8218; 66
+opendns; 56; 216; 71.6931; 66
+norton; 56; 69; 61.3564; 63
+comodo; 43; 286; 69.4752; 59
+
+TXT
+provider; min; max; mean; median
+custom; 83; 166; 87.9703; 86
+google; 46; 76; 61.802; 63
+cloudflare; 56; 630; 75.2376; 66
+opendns; 56; 130; 67.6337; 66
+norton; 56; 106; 62.7228; 63
+comodo; 46; 240; 67.396; 60
+
+ANY
+provider; min; max; mean; median
+custom; 83; 200; 93.5941; 93
+google; 46; 200; 63.0594; 63
+cloudflare; 56; 133; 67.2871; 66
+opendns; 46; 203; 57.6733; 53
+norton; 56; 7770; 142.663; 63
+comodo; 46; 170; 65.4752; 60

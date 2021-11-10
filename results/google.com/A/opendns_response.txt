@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.16.22 <<>> @208.67.222.222 google.com A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47446
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		300	IN	A	172.217.165.206
+
+;; Query time: 66 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222)
+;; WHEN: Tue Nov 09 20:15:44 CST 2021
+;; MSG SIZE  rcvd: 55
+

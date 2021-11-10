@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.16.22 <<>> @199.85.126.10 notarealsite.co.cr ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11441
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;notarealsite.co.cr.		IN	ANY
+
+;; AUTHORITY SECTION:
+co.cr.			160	IN	SOA	dns.nic.cr. ti.nic.cr. 1636511403 14400 3600 1209600 7200
+
+;; Query time: 169 msec
+;; SERVER: 199.85.126.10#53(199.85.126.10)
+;; WHEN: Tue Nov 09 20:39:00 CST 2021
+;; MSG SIZE  rcvd: 94
+

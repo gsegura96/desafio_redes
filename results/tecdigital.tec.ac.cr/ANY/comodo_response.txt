@@ -1,0 +1,21 @@
+;; Warning: query response not set
+
+; <<>> DiG 9.16.22 <<>> @8.26.56.26 tecdigital.tec.ac.cr ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53240
+;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 7863707586bf6f20 (echoed)
+;; QUESTION SECTION:
+;tecdigital.tec.ac.cr.		IN	ANY
+
+;; Query time: 166 msec
+;; SERVER: 8.26.56.26#53(8.26.56.26)
+;; WHEN: Tue Nov 09 20:29:49 CST 2021
+;; MSG SIZE  rcvd: 61
+

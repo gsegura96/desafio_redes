@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.16.22 <<>> @35.232.39.227 tecdigital.tec.ac.cr TXT
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16662
+;; flags: qr aa rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;tecdigital.tec.ac.cr.		IN	TXT
+
+;; ANSWER SECTION:
+tecdigital.tec.ac.cr.	5	IN	TXT	"Record del TD hack"
+
+;; Query time: 86 msec
+;; SERVER: 35.232.39.227#53(35.232.39.227)
+;; WHEN: Tue Nov 09 20:27:20 CST 2021
+;; MSG SIZE  rcvd: 69
+
