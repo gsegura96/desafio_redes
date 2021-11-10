@@ -1,9 +1,9 @@
 
-; <<>> DiG 9.16.22 <<>> @35.232.39.227 google.com A
+; <<>> DiG 9.16.22 <<>> +time @35.232.39.227 google.com A
 ; (1 server found)
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31458
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3732
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -12,15 +12,15 @@
 ;google.com.			IN	A
 
 ;; ANSWER SECTION:
-google.com.		44	IN	A	108.177.111.101
-google.com.		44	IN	A	108.177.111.139
-google.com.		44	IN	A	108.177.111.102
-google.com.		44	IN	A	108.177.111.138
-google.com.		44	IN	A	108.177.111.100
-google.com.		44	IN	A	108.177.111.113
+google.com.		259	IN	A	108.177.111.101
+google.com.		259	IN	A	108.177.111.139
+google.com.		259	IN	A	108.177.111.102
+google.com.		259	IN	A	108.177.111.138
+google.com.		259	IN	A	108.177.111.100
+google.com.		259	IN	A	108.177.111.113
 
 ;; Query time: 93 msec
 ;; SERVER: 35.232.39.227#53(35.232.39.227)
-;; WHEN: Tue Nov 09 20:15:15 CST 2021
+;; WHEN: Tue Nov 09 21:15:46 CST 2021
 ;; MSG SIZE  rcvd: 135
 

@@ -1,9 +1,9 @@
 
-; <<>> DiG 9.16.22 <<>> @8.26.56.26 tecdigital.tec.ac.cr A
+; <<>> DiG 9.16.22 <<>> +time @8.26.56.26 tecdigital.tec.ac.cr A
 ; (1 server found)
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43376
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16064
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -12,10 +12,10 @@
 ;tecdigital.tec.ac.cr.		IN	A
 
 ;; ANSWER SECTION:
-tecdigital.tec.ac.cr.	1729	IN	A	201.204.122.5
+tecdigital.tec.ac.cr.	3213	IN	A	201.204.122.5
 
-;; Query time: 56 msec
+;; Query time: 53 msec
 ;; SERVER: 8.26.56.26#53(8.26.56.26)
-;; WHEN: Tue Nov 09 20:27:11 CST 2021
+;; WHEN: Tue Nov 09 21:25:49 CST 2021
 ;; MSG SIZE  rcvd: 65
 

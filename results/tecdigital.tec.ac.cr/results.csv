@@ -1,29 +1,29 @@
 request domain: tecdigital.tec.ac.cr
-total requests: 100
+total requests: 200
 
 A
 provider; min; max; mean; median
-custom; 79; 143; 86.9208; 86
-google; 43; 76; 58.1683; 59
-cloudflare; 56; 86; 65.6436; 66
-opendns; 43; 203; 55.7129; 53
-norton; 56; 69; 61.8515; 63
-comodo; 43; 159; 61.3663; 59
+custom; 79; 263; 87,8308; 86
+google; 43; 133; 57,0945; 56
+cloudflare; 56; 153; 63,6617; 63
+opendns; 43; 146; 55,0448; 53
+norton; 56; 236; 62,895; 63
+comodo; 43; 226; 61,3035; 59
 
 TXT
 provider; min; max; mean; median
-custom; 79; 93; 85.0693; 86
-google; 43; 119; 63.703; 63
-cloudflare; 56; 149; 67.9307; 66
-opendns; 43; 136; 60.3069; 56
-norton; 56; 123; 63.2079; 63
-comodo; 46; 123; 60.1584; 59
+custom; 79; 256; 85,6716; 86
+google; 43; 196; 62,393; 59
+cloudflare; 56; 203; 66,46; 63
+opendns; 43; 126; 56,6617; 53
+norton; 56; 173; 62,7164; 63
+comodo; 43; 229; 60,6119; 56
 
 ANY
 provider; min; max; mean; median
-custom; 76; 126; 89.7525; 89
-google; 43; 113; 64.0891; 63
-cloudflare; 56; 323; 74.5248; 66
-opendns; 43; 139; 56.5743; 53
-norton; 53; 319; 64.7228; 63
-comodo; 46; 109; 59.604; 56
+custom; 79; 129; 89; 89
+google; 43; 103; 59,0498; 56
+cloudflare; 56; 179; 63,1592; 63
+opendns; 43; 93; 53,4776; 53
+norton; 56; 193; 62,602; 59
+comodo; 43; 93; 57,3184; 56

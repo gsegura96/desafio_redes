@@ -1,0 +1,24 @@
+
+; <<>> DiG 9.16.22 <<>> +time @35.232.39.227 redesce.com ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41517
+;; flags: qr aa rd ra ad; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;redesce.com.			IN	ANY
+
+;; ANSWER SECTION:
+redesce.com.		5	IN	A	99.88.77.66
+redesce.com.		5	IN	AAAA	2001:db8:85a3::8a2e:370:7334
+redesce.com.		5	IN	TXT	"Hola Mundo Redes"
+redesce.com.		5	IN	TXT	"Hola Mundo Redes"
+redesce.com.		5	IN	A	99.88.77.66
+redesce.com.		5	IN	AAAA	2001:db8:85a3::8a2e:370:7334
+
+;; Query time: 89 msec
+;; SERVER: 35.232.39.227#53(35.232.39.227)
+;; WHEN: Tue Nov 09 21:12:34 CST 2021
+;; MSG SIZE  rcvd: 175
+

@@ -1,29 +1,29 @@
 request domain: google.com
-total requests: 100
+total requests: 200
 
 A
 provider; min; max; mean; median
-custom; 79; 126; 88.1188; 89
-google; 43; 73; 56.4752; 56
-cloudflare; 56; 276; 70.8218; 66
-opendns; 56; 216; 71.6931; 66
-norton; 56; 69; 61.3564; 63
-comodo; 43; 286; 69.4752; 59
+custom; 79; 143; 88,2388; 89
+google; 43; 103; 55,5075; 53
+cloudflare; 56; 166; 63,5124; 63
+opendns; 56; 199; 67,194; 66
+norton; 56; 3036; 77,195; 63
+comodo; 43; 186; 57,9353; 56
 
 TXT
 provider; min; max; mean; median
-custom; 83; 166; 87.9703; 86
-google; 46; 76; 61.802; 63
-cloudflare; 56; 630; 75.2376; 66
-opendns; 56; 130; 67.6337; 66
-norton; 56; 106; 62.7228; 63
-comodo; 46; 240; 67.396; 60
+custom; 79; 213; 89,3184; 89
+google; 43; 183; 60,3582; 59
+cloudflare; 56; 166; 63,5829; 63
+opendns; 46; 269; 69,6169; 66
+norton; 56; 169; 63,2537; 63
+comodo; 43; 176; 58,2687; 56
 
 ANY
 provider; min; max; mean; median
-custom; 83; 200; 93.5941; 93
-google; 46; 200; 63.0594; 63
-cloudflare; 56; 133; 67.2871; 66
-opendns; 46; 203; 57.6733; 53
-norton; 56; 7770; 142.663; 63
-comodo; 46; 170; 65.4752; 60
+custom; 79; 199; 92,7512; 93
+google; 43; 343; 58,3831; 56
+cloudflare; 53; 99; 62,3085; 59
+opendns; 43; 233; 56,01; 53
+norton; 53; 3639; 80,1194; 59
+comodo; 43; 153; 58,3433; 56

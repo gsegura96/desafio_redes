@@ -1,0 +1,29 @@
+request domain: redesce.com
+total requests: 200
+
+A
+provider; min; max; mean; median
+custom; 79; 169; 85,7711; 86
+google; 43; 143; 61,4328; 59
+cloudflare; 56; 146; 64,0498; 66
+opendns; 43; 136; 55,995; 53
+norton; 56; 253; 64,3184; 63
+comodo; 43; 129; 58,2388; 56
+
+TXT
+provider; min; max; mean; median
+custom; 79; 126; 85,0995; 83
+google; 43; 146; 60,8358; 59
+cloudflare; 56; 329; 68,4577; 63
+opendns; 43; 129; 55,865; 53
+norton; 56; 153; 63,6766; 63
+comodo; 43; 136; 58,9104; 59
+
+ANY
+provider; min; max; mean; median
+custom; 76; 99; 88,6219; 89
+google; 43; 133; 60,6667; 59
+cloudflare; 53; 99; 63,7264; 63
+opendns; 43; 136; 55,8706; 56
+norton; 53; 1809; 71,9851; 59
+comodo; 43; 96; 58,3632; 56

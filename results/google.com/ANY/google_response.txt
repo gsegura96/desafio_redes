@@ -1,9 +1,9 @@
 
-; <<>> DiG 9.16.22 <<>> @8.8.8.8 google.com ANY
+; <<>> DiG 9.16.22 <<>> +time @8.8.8.8 google.com ANY
 ; (1 server found)
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52920
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18409
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 30, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -12,39 +12,39 @@
 ;google.com.			IN	ANY
 
 ;; ANSWER SECTION:
-google.com.		288	IN	A	108.177.12.102
-google.com.		288	IN	A	108.177.12.101
-google.com.		288	IN	A	108.177.12.113
-google.com.		288	IN	A	108.177.12.139
-google.com.		288	IN	A	108.177.12.100
-google.com.		288	IN	A	108.177.12.138
-google.com.		288	IN	AAAA	2607:f8b0:400c:c08::65
-google.com.		288	IN	AAAA	2607:f8b0:400c:c08::8a
-google.com.		288	IN	AAAA	2607:f8b0:400c:c08::64
-google.com.		288	IN	AAAA	2607:f8b0:400c:c08::66
-google.com.		3588	IN	TXT	"apple-domain-verification=30afIBcvSuDV2PLX"
-google.com.		3588	IN	TXT	"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB"
-google.com.		21588	IN	NS	ns4.google.com.
-google.com.		21588	IN	NS	ns3.google.com.
-google.com.		21588	IN	NS	ns2.google.com.
-google.com.		588	IN	MX	10 aspmx.l.google.com.
-google.com.		48	IN	SOA	ns1.google.com. dns-admin.google.com. 408579314 900 900 1800 60
-google.com.		21588	IN	CAA	0 issue "pki.goog"
-google.com.		3588	IN	TXT	"v=spf1 include:_spf.google.com ~all"
-google.com.		3588	IN	TXT	"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95"
-google.com.		588	IN	MX	40 alt3.aspmx.l.google.com.
-google.com.		3588	IN	TXT	"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289"
-google.com.		588	IN	MX	50 alt4.aspmx.l.google.com.
-google.com.		3588	IN	TXT	"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ"
-google.com.		3588	IN	TXT	"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o"
-google.com.		588	IN	MX	30 alt2.aspmx.l.google.com.
-google.com.		21588	IN	NS	ns1.google.com.
-google.com.		3588	IN	TXT	"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8="
-google.com.		588	IN	MX	20 alt1.aspmx.l.google.com.
-google.com.		3588	IN	TXT	"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e"
+google.com.		242	IN	A	172.217.203.138
+google.com.		242	IN	A	172.217.203.139
+google.com.		242	IN	A	172.217.203.102
+google.com.		242	IN	A	172.217.203.113
+google.com.		242	IN	A	172.217.203.100
+google.com.		242	IN	A	172.217.203.101
+google.com.		242	IN	AAAA	2607:f8b0:400c:c07::71
+google.com.		242	IN	AAAA	2607:f8b0:400c:c07::64
+google.com.		242	IN	AAAA	2607:f8b0:400c:c07::66
+google.com.		242	IN	AAAA	2607:f8b0:400c:c07::8a
+google.com.		542	IN	MX	40 alt3.aspmx.l.google.com.
+google.com.		21542	IN	NS	ns3.google.com.
+google.com.		3542	IN	TXT	"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95"
+google.com.		3542	IN	TXT	"apple-domain-verification=30afIBcvSuDV2PLX"
+google.com.		3542	IN	TXT	"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289"
+google.com.		542	IN	MX	20 alt1.aspmx.l.google.com.
+google.com.		3542	IN	TXT	"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB"
+google.com.		542	IN	MX	30 alt2.aspmx.l.google.com.
+google.com.		21542	IN	CAA	0 issue "pki.goog"
+google.com.		3542	IN	TXT	"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ"
+google.com.		3542	IN	TXT	"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e"
+google.com.		3542	IN	TXT	"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8="
+google.com.		21542	IN	NS	ns4.google.com.
+google.com.		542	IN	MX	50 alt4.aspmx.l.google.com.
+google.com.		21542	IN	NS	ns1.google.com.
+google.com.		3542	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+google.com.		3542	IN	TXT	"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o"
+google.com.		542	IN	MX	10 aspmx.l.google.com.
+google.com.		21542	IN	NS	ns2.google.com.
+google.com.		2	IN	SOA	ns1.google.com. dns-admin.google.com. 408579314 900 900 1800 60
 
-;; Query time: 66 msec
+;; Query time: 73 msec
 ;; SERVER: 8.8.8.8#53(8.8.8.8)
-;; WHEN: Tue Nov 09 20:17:35 CST 2021
+;; WHEN: Tue Nov 09 21:21:25 CST 2021
 ;; MSG SIZE  rcvd: 1086
 

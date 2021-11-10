@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.16.22 <<>> +time @35.232.39.227 redesce.com A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1817
+;; flags: qr aa rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;redesce.com.			IN	A
+
+;; ANSWER SECTION:
+redesce.com.		5	IN	A	99.88.77.66
+redesce.com.		5	IN	A	99.88.77.66
+
+;; Query time: 89 msec
+;; SERVER: 35.232.39.227#53(35.232.39.227)
+;; WHEN: Tue Nov 09 21:07:43 CST 2021
+;; MSG SIZE  rcvd: 61
+

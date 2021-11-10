@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.16.22 <<>> +time @208.67.222.222 redesce.com TXT
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13221
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;redesce.com.			IN	TXT
+
+;; AUTHORITY SECTION:
+com.			236	IN	SOA	a.gtld-servers.net. nstld.verisign-grs.com. 1636513142 1800 900 604800 86400
+
+;; Query time: 56 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222)
+;; WHEN: Tue Nov 09 21:10:29 CST 2021
+;; MSG SIZE  rcvd: 113
+

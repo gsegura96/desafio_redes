@@ -1,0 +1,18 @@
+
+; <<>> DiG 9.16.22 <<>> +time @208.67.222.222 redesce.com ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOTIMP, id: 46874
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;redesce.com.			IN	ANY
+
+;; Query time: 56 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222)
+;; WHEN: Tue Nov 09 21:14:13 CST 2021
+;; MSG SIZE  rcvd: 40
+

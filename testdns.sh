@@ -38,12 +38,12 @@ do
         echo "$provider ip: ${ip[$provider]}"
         > results/$request_domain/$request_type/${provider}.txt
         > results/$request_domain/$request_type/${provider}_response.txt
-        dig @"${ip[$provider]}" $request_domain $request_type >> results/$request_domain/$request_type/${provider}_response.txt
+        dig +time=5 @"${ip[$provider]}" $request_domain $request_type >> results/$request_domain/$request_type/${provider}_response.txt
         echo 0
         for i in $(seq 0 $total_requests)
             do
             echo -e '\e[1A\e[K' $i
-            dig @"${ip[$provider]}" $request_domain $request_type | grep "Query time" | awk '{print $4}' >> results/$request_domain/$request_type/${provider}.txt
+            dig +time=5 @"${ip[$provider]}" $request_domain $request_type | grep "Query time" | awk '{print $4}' >> results/$request_domain/$request_type/${provider}.txt
         done
     done
 done

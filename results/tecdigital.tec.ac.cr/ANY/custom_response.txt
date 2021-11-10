@@ -1,10 +1,10 @@
 
-; <<>> DiG 9.16.22 <<>> @35.232.39.227 tecdigital.tec.ac.cr ANY
+; <<>> DiG 9.16.22 <<>> +time @35.232.39.227 tecdigital.tec.ac.cr ANY
 ; (1 server found)
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7636
-;; flags: qr aa rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62445
+;; flags: qr aa rd ra ad; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
 
 ;; QUESTION SECTION:
 ;tecdigital.tec.ac.cr.		IN	ANY
@@ -12,9 +12,12 @@
 ;; ANSWER SECTION:
 tecdigital.tec.ac.cr.	5	IN	TXT	"Record del TD hack"
 tecdigital.tec.ac.cr.	5	IN	A	35.232.39.227
+tecdigital.tec.ac.cr.	5	IN	TXT	"Record del TD hack"
+tecdigital.tec.ac.cr.	5	IN	A	35.232.39.227
+tecdigital.tec.ac.cr.	5	IN	AAAA	2001:db8:85a3::
 
 ;; Query time: 89 msec
 ;; SERVER: 35.232.39.227#53(35.232.39.227)
-;; WHEN: Tue Nov 09 20:28:25 CST 2021
-;; MSG SIZE  rcvd: 85
+;; WHEN: Tue Nov 09 21:29:20 CST 2021
+;; MSG SIZE  rcvd: 160
 

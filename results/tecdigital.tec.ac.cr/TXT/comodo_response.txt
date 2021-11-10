@@ -1,9 +1,9 @@
 
-; <<>> DiG 9.16.22 <<>> @8.26.56.26 tecdigital.tec.ac.cr TXT
+; <<>> DiG 9.16.22 <<>> +time @8.26.56.26 tecdigital.tec.ac.cr TXT
 ; (1 server found)
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35627
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8233
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -14,8 +14,8 @@
 ;; AUTHORITY SECTION:
 tec.ac.cr.		300	IN	SOA	ns1-08.azure-dns.com. azuredns-hostmaster.microsoft.com. 1 3600 300 2419200 300
 
-;; Query time: 83 msec
+;; Query time: 123 msec
 ;; SERVER: 8.26.56.26#53(8.26.56.26)
-;; WHEN: Tue Nov 09 20:28:11 CST 2021
+;; WHEN: Tue Nov 09 21:28:57 CST 2021
 ;; MSG SIZE  rcvd: 135
 
